@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
-
+import Visits from '../context/Visits';
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
@@ -20,14 +20,7 @@ const Home = () => {
           building responsive full-stack web applications.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-400 hover:border-lime-600'>
-            <Link to='about' smooth={true} duration={500}>
-            Welcome
-          </Link>
-            <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
-            </span>
-          </button>
+          <Visits/>
         </div>
       </div>
     </div>
