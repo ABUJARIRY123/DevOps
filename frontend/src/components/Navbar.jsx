@@ -4,11 +4,11 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
+  FaWhatsapp
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-      <h2 className='text-2xl sm:text-4xl font-bold text-cyan-400	'> Ridhiwani Maro</h2>
+      <h2 className='text-2xl sm:text-4xl font-bold text-cyan-400 '> Ridhiwani Maro</h2>
       </div>
 
       {/* menu */}
@@ -98,7 +98,9 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/ridhiwani-maro-6328b5156/'
+              target='_blank' // This ensures the link opens in a new tab
+              rel='noopener noreferrer' 
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -106,27 +108,44 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/ABUJARIRY123'
+              target='_blank' // This ensures the link opens in a new tab
+              rel='noopener noreferrer' 
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-rose-950'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='mailto:maroridhiwani@gmail.com'
+              target='_blank' // This ensures the link opens in a new tab
+              rel='noopener noreferrer' 
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-500'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://wa.me/254799690364'
+              target='_blank' // This ensures the link opens in a new tab
+              rel='noopener noreferrer' 
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              WhatsApp <FaWhatsapp size={30} />
             </a>
           </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+ <a
+    className='flex justify-between items-center w-full text-gray-300'
+    href='/MARO RIDHIWANI RESUME.pdf' // Corrected path
+    target='_blank' // This ensures the link opens in a new tab
+    rel='noopener noreferrer' // This is a security measure to prevent the new page from accessing your page's window object
+ >
+    Resume <BsFillPersonLinesFill size={30} />
+ </a>
+</li>
+
         </ul>
       </div>
     </div>
@@ -134,3 +153,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
