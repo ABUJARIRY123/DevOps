@@ -14,7 +14,7 @@ const Visits = () => {
   }
 
   // Fetch data from backend
-  fetch('https://mwanamisi-server.onrender.com/visits')
+  fetch('https://ridhiwani.onrender.com/visits')
   .then(res => res.json())
     .then(data => {
       setVisits(data.visits);
