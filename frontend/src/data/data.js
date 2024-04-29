@@ -6,9 +6,9 @@ import Project2 from '../assets/projects/project2.png'
 export const data=[
     {
         id:1,
-        name:"Vanilla JS Application",
+        name:"Deen Khaalis",
         image:WorkIm,
-        live:"/",
+        live:"https://www.deenkhaalis.com/",
     },
     {
         id:2,
