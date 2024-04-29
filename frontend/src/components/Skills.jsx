@@ -18,7 +18,7 @@ const Skills = () => {
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full'>
-          <div className='mt-40' >
+          <div className='mt-60' >
               <p className='text-4xl font-bold inline border-b-4 border-lime-600'> My Tech Stacks</p>
               <p className='py-4'> These are the technologies I normally worked with to give out solutions</p>
           </div>
@@ -44,10 +44,7 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={SupperBase} alt="HTML icon" />
                   <p className='my-4'>SUPABASE</p>
               </div>
-              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                  <p className='my-4'>FIREBASE</p>
-              </div> */}
+             
                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Material} alt="HTML icon" />
                   <p className='my-4'>MATERIAL UI</p>
