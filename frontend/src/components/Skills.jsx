@@ -9,7 +9,10 @@ import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
-
+import Material from '../assets/material.png'
+import Angular from '../assets/angular.PNG'
+import Typescript from '../assets/typescript.png'
+import SupperBase from '../assets/superbase.PNG'
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
@@ -38,6 +41,26 @@ const Skills = () => {
                   <p className='my-4'>REACT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={SupperBase} alt="HTML icon" />
+                  <p className='my-4'>SUPABASE</p>
+              </div>
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
+                  <p className='my-4'>FIREBASE</p>
+              </div> */}
+               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Material} alt="HTML icon" />
+                  <p className='my-4'>MATERIAL UI</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Angular} alt="HTML icon" />
+                  <p className='my-4'>ANGULAR</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Typescript} alt="HTML icon" />
+                  <p className='my-4'>TYPESCRIPT</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
@@ -53,10 +76,6 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
                   <p className='my-4'>TAILWIND CSS</p>
               </div>
-              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                  <p className='my-4'>FIREBASE</p>
-              </div> */}
           </div>
       </div>
     </div>
