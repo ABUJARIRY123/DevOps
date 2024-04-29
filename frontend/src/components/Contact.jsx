@@ -11,7 +11,7 @@ const Contact = () => {
  };
  const sendEmail = (e) => {
   e.preventDefault();
-  emailjs.sendForm('service_vmaklnl', 'template_ui6xmwe', contactform.current, 'ZtwfZE-s4hDF7B71R')
+  emailjs.sendForm('service_rztkyf6', 'template_g5g62gn', contactform.current, 'ygI-BriDacSUV2HcE')
     .then((result) => {
       console.log(result.text);
       setPopupMessage('Thank You for Your Submission');
