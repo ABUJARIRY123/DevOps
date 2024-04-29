@@ -12,7 +12,7 @@ const Work = () => {
   return (
     <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full'>
-        <div className='mt-40 pb-8'>
+      <div className='mt-80 md:mt-20 pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-400'>
             Projects
           </p>
