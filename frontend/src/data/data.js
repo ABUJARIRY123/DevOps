@@ -18,7 +18,7 @@ export const data=[
     },
     {
         id:3,
-        name:"React JS Application",
+        name:"Learning Management System",
         image:Project1,
         live:"/",
     },
