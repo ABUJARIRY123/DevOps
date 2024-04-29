@@ -6,24 +6,21 @@ import Project2 from '../assets/projects/project2.png'
 export const data=[
     {
         id:1,
-        name:"React JS Application",
+        name:"Vanilla JS Application",
         image:WorkIm,
-        github:"",
-        live:"",
+        live:"/",
     },
     {
         id:2,
-        name:"Vanilla JS Application",
+        name:"Mwanamisi Portfolio",
         image:RealEst,
-        github:"",
-        live:"",
+        live:"https://mwanamisi.vercel.app/",
     },
     {
         id:3,
         name:"React JS Application",
         image:Project1,
-        github:"",
-        live:"",
+        live:"/",
     },
     // {
     //     id:4,

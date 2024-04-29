@@ -1,5 +1,6 @@
 import React from 'react';
 import { data } from "../data/data.js";
+import { Link } from 'react-scroll';
 
 
 const Work = () => {
@@ -9,11 +10,11 @@ const Work = () => {
     //setProject(data);
   
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-400'>
-            Work
+            Projects
           </p>
           <p className='py-6'> Check out some of my recent work</p>
         </div>
@@ -36,23 +37,23 @@ const Work = () => {
       </span>
       <div className="pt-8 text-center ">
         {/* eslint-disable-next-line */}
-        <a href={item.github} target="_blank">
-          <button
-            className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
-          >
-            Request Demo
-          </button>
-        </a>
-        {/* eslint-disable-next-line */}
         <a href={item.live} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
           >
-            Talk to Me
+            Live Check
           </button>
         </a>
+        {/* eslint-disable-next-line */}
+          <button
+            className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg"
+          >
+          <Link to='contact' smooth={true} duration={500}>
+          Talk to Me
+          </Link>   
+          </button>
       </div>
     </div>
   </div>

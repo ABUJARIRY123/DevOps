@@ -16,7 +16,9 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-      <h2 className='text-2xl sm:text-4xl font-bold text-cyan-400 '> Ridhiwani Maro</h2>
+      <h2 className='text-2xl sm:text-4xl font-bold text-cyan-400 cursor-pointer '><Link to='home' smooth={true} duration={500}>
+            Ridhiwani Maro
+          </Link></h2>
       </div>
 
       {/* menu */}
@@ -37,8 +39,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
+          <Link to='projects' smooth={true} duration={500}>
+          Projects
           </Link>
         </li>
         <li>
@@ -80,8 +82,8 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+          Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
