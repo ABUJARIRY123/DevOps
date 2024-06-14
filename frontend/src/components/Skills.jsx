@@ -10,7 +10,7 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
 import Material from '../assets/material.png'
-import Angular from '../assets/angular.PNG'
+import Angular from '../assets/angular.png'
 import Typescript from '../assets/typescript.png'
 import SupperBase from '../assets/superbase.PNG'
 const Skills = () => {

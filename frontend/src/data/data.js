@@ -9,6 +9,8 @@ export const data=[
         name:"Deen Khaalis",
         image:WorkIm,
         live:"https://www.deenkhaalis.com/",
+        // live:"/",
+
     },
     {
         id:2,
@@ -18,9 +20,9 @@ export const data=[
     },
     {
         id:3,
-        name:"Learning Management System",
+        name:"CTLC Management System",
         image:Project1,
-        live:"/",
+        live:"https://www.ctlc.co.ke/",
     },
     // {
     //     id:4,
