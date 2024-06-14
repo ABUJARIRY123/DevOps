@@ -1,27 +1,26 @@
-import WorkIm from '../assets/projects/workImg.png'
-import RealEst from '../assets/projects/realestate.png'
-import Project1 from '../assets/projects/project1.jpg'
-import Project2 from '../assets/projects/project2.png'
+import deenkhaalis from '../assets/projects/deenkhaalis.png'
+import mwanamisi from '../assets/projects/mwanamisi.png'
+import ctlc from '../assets/projects/ctlc.jpg'
 
 export const data=[
     {
         id:1,
         name:"Deen Khaalis",
-        image:WorkIm,
+        image:deenkhaalis,
         live:"https://www.deenkhaalis.com/",
         // live:"/",
 
     },
     {
         id:2,
-        name:"Mwanamisi Portfolio",
-        image:RealEst,
+        name:"Mwanamisi Blog",
+        image:mwanamisi,
         live:"https://mwanamisi.vercel.app/",
     },
     {
         id:3,
         name:"CTLC Management System",
-        image:Project1,
+        image:ctlc,
         live:"https://www.ctlc.co.ke/",
     },
     // {
