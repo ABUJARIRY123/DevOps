@@ -138,16 +138,7 @@ const Navbar = () => {
               WhatsApp <FaWhatsapp size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
- <a
-    className='flex justify-between items-center w-full text-gray-300'
-    href='/MARO RIDHIWANI RESUME.pdf' // Corrected path
-    target='_blank' // This ensures the link opens in a new tab
-    rel='noopener noreferrer' // This is a security measure to prevent the new page from accessing your page's window object
- >
-    Resume <BsFillPersonLinesFill size={30} />
- </a>
-</li>
+          
 
         </ul>
       </div>
