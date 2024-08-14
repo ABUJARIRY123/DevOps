@@ -1,5 +1,5 @@
 import deenkhaalis from '../assets/projects/deenkhaalis.png'
-import mwanamisi from '../assets/projects/mwanamisi.png'
+import yathrib from '../assets/projects/yathrib.jpg'
 import ctlc from '../assets/projects/ctlc.jpg'
 
 export const data=[
@@ -13,9 +13,9 @@ export const data=[
     },
     {
         id:2,
-        name:"Mwanamisi Blog",
-        image:mwanamisi,
-        live:"https://mwanamisi.vercel.app/",
+        name:"Yathrib School",
+        image:yathrib,
+        live:"https://yathribschool.netlify.app"
     },
     {
         id:3,
