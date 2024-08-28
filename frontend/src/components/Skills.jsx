@@ -17,21 +17,21 @@ const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full -mt-48'>
-          <div className='mt-60' >
-              <p className='text-4xl font-bold inline border-b-4 border-lime-600'> My Tech Stacks</p>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center text-center items-center w-full h-full '>
+          <div className='mt-40' >
+              <p className='text-4xl font-bold inline border-b-4 border-lime-600 '> My Tech Stacks</p>
               <p className='py-4'> These are the technologies I normally worked with to give out solutions</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                   <p className='my-4'>HTML</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              </div> */}
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
                   <p className='my-4'>CSS</p>
-              </div>
+              </div> */}
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
                   <p className='my-4'>JAVASCRIPT</p>
@@ -40,10 +40,10 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                   <p className='my-4'>REACT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={SupperBase} alt="HTML icon" />
                   <p className='my-4'>SUPABASE</p>
-              </div>
+              </div> */}
              
                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Material} alt="HTML icon" />
@@ -57,10 +57,10 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Typescript} alt="HTML icon" />
                   <p className='my-4'>TYPESCRIPT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
                   <p className='my-4'>GITHUB</p>
-              </div>
+              </div> */}
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
                   <p className='my-4'>NODE JS</p>
