@@ -4,11 +4,7 @@ import { Link } from 'react-scroll';
 
 
 const Work = () => {
-
-    // projects file
-    const project = data;
-    //setProject(data);
-  
+    const project = data;  
   return (
     <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full'>
@@ -18,12 +14,8 @@ const Work = () => {
           </p>
           <p className='py-6'> Check out some of my recent work</p>
         </div>
-
-{/* container for projects */}
 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          
-          {/* Gird Item */}
-          {project.map((item, index) => (
+  {project.map((item, index) => (
   <div
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
