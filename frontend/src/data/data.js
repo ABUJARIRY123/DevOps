@@ -15,7 +15,7 @@ export const data=[
         id:2,
         name:"Yathrib School",
         image:yathrib,
-        live:"https://yathribschool.netlify.app"
+        live:"https://yathribschool.co.ke"
     },
     {
         id:3,
